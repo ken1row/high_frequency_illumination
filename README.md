@@ -20,4 +20,4 @@ This program implements the paper
 S. Nayar et al. "Fast Separation of Direct and Global Components of a Scene using High Frequency Illumination", SIGGRAPH 2006.
 
 # For Japanese
-[こちらのページ](http://www.am.sanken.osaka-u.ac.jp/~tanaka/project/phfi-jp.html)で簡単な解説がご覧になれます．
+[こちらのページ](http://www.am.sanken.osaka-u.ac.jp/~tanaka/projects/phfi-jp.html)で簡単な解説がご覧になれます．
