@@ -81,7 +81,7 @@ if __name__ == '__main__':
 #    img[c==0]=color1
 #    Image.fromarray(img, 'RGB').save('black.png')
     cv2.imwrite('black.png', cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-    c = np.ones((h, w))
+    c = np.ones((h, w)) * 255
 #    img[c==1]=color2
 #    Image.fromarray(img, 'RGB').save('white.png')
     cv2.imwrite('white.png', cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
