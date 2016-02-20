@@ -1,12 +1,14 @@
 # Tools for high frequency illumination
 Includes pattern generator and post process scripts.
 
-This project includes ScriptCapture sub-project, which is a automatic projection-capture script.
+* ScriptCapture
+
+  Automatic projection and capture scripts. Please refer [ScriptCapture/README.md](./ScriptCapture/README.md) for the detail.
 
 * generate_checker_board.py
 
   Generates projection patterns.
-  Image size, pattern size, shift amount, and color are adjustable. See usage using ```-h``` option.
+  Image size, pattern size, shift amount, and color are adjustable. See usage by ```-h``` option.
 
 * separate_direct_global.py
 
@@ -19,7 +21,7 @@ For Ubuntu 14.04, these packages can be installed as:
 ```
 sudo apt-get install libopencv-dev python python-numpy python-opencv
 ```
-If you use ScriptCaptures, other packages are required. See ```ScriptCapture/README.md```.
+If you use ScriptCaptures, other packages are required. See also [ScriptCapture/README.md](./ScriptCapture/README.md).
 
 # Notes
 This program implements the paper;
