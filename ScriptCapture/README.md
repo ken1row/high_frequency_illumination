@@ -8,24 +8,26 @@ There are two options depending on your camera.
 
 ## Usage
 1. Prepare images for projection by yourself, or use ```generate_checker_board.py```. Please note that all images are saved in a directory (e.g. ```./illuminations/```) and it must not include other files.
-```
-mkdir illuminations && cd illuminations
-python ../generate_checker_board.py
-cd ..
-```
+ ```
+ mkdir illuminations && cd illuminations
+ python ../generate_checker_board.py
+ cd ..
+ ```
 
 2. Use this script. All captured images are saved as the same name of the illumination file.
-```
-mkdir captures
-python ScriptCapture[Camera].py
-```
- Illumination and output directories are selectable. Please see ```-h``` option.
+ ```
+ mkdir captures
+ python ScriptCapture[Camera].py
+ ```
+  Illumination and output directories are selectable. Please see ```-h``` option. 
+  
+  Tips: Sometimes, projection time lag problem will occur. In that case, ```--dummy``` option can mitigate this problem.
  
 3. Finally, post process captured images yourself, or use ```separate_direct_global.py```.
-```
-python separate_direct_global.py -d captures
-eog captures/direct.png
-```
+ ```
+ python separate_direct_global.py -d captures
+ eog captures/direct.png
+ ```
 
 ## Dependencies
 * FlyCapture2 SDK
